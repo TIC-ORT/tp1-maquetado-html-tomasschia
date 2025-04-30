@@ -1,0 +1,35 @@
+
+
+
+.top{
+    color: aquamarine;
+  
+}
+
+.destacados{
+display: flex;
+gap: 15px;
+padding: 35px;
+justify-content: center;
+background-color: rgb(158, 158, 158);
+}
+    rect1{
+    width: 200px;
+    height: 130p;
+    }
+
+        rojo{
+        background-color: #FF0000;
+        }
+        blanqueto{
+        background-color: antiquewhite;
+        }
+
+
+.galeria{
+color:brown 
+}
+
+.bottom{
+    color: crimson;
+}
