@@ -35,14 +35,14 @@ body{
 
             .linea{
                 width: 100px;
-                height: 8px;
+                height: 10px;
                 background-color: #FF0000;
             
             }
 
             .lineaCORTA {
                 width: 50px;
-                height: 8px;
+                height: 10px;
                 background-color: #FF0000;
           }
          
@@ -104,5 +104,28 @@ color:brown
 }
 
 .bottom{
-    color: crimson;
+    background-color: whitesmoke; 
+    padding: 40px; 
+    gap: 10px;
+    justify-content: center;
+    display: flex;
 }
+
+     .parrafo{
+         background-color: whitesmoke;
+         display: flex;
+         flex-direction: column;
+         gap: 5px;
+         align-items: center;
+         min-width: 20%;
+         }
+           .linearda{
+              background-color: #FF0000;
+               height: 8px;
+               width: 100%;
+            }
+         .lineardaCORTA{
+               background-color: #FF0000;
+              height: 8px;
+              width: 50%;
+            }
