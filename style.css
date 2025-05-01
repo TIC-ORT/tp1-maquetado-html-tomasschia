@@ -4,15 +4,17 @@ body{
 }
 .top{
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
     padding: 30px;
     color: whitesmoke;
-    gap: 40px;
+    gap: 60px;
+    height: 120px;
 }
 
     .tarjeta{
         display: flex;
+        height: 120px;
         align-items: center;
         gap: 15px;
         background-color: white;
@@ -21,26 +23,54 @@ body{
         .imagen{
             width: 50px;
             height: 50px;
-            color: #FF0000;
+            background-color: #FF0000;
         }
 
         .texto{
             display: flex;
             flex-direction: column;
             gap: 5px;
-            align-items: center;
+            align-items: center; 
+        
         }
 
-        .linea{
-            width: 100px;
-            height: 8px;
-            background-color: #FF0000;
+            .linea{
+                width: 100px;
+                height: 8px;
+                background-color: #FF0000;
+            
+            }
+
+            .lineaCORTA {
+                width: 50px;
+                height: 8px;
+                background-color: #FF0000;
+          }
+         
+    .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    }
+
+        .campo {
+        width: 200px;
+        height: 15px;
+        background-color:#FF0000;
+        padding: 10px ;
+        align-items: center;
         }
 
-        .lineaCORTA {
-            width: 50px;
-            height: 8px;
-            background-color: #FF0000;
+        .boton {
+        width: 80px;
+        height: 10px;
+        background-color: #610202;
+        } 
+        .lineaBLANCA{
+            background-color: white;
+            width:auto;
+            height: 12px;
           }
 
 .destacados{
