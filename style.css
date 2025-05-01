@@ -1,6 +1,7 @@
 
-
-
+body{
+    background-color: white;
+}
 .top{
     color: aquamarine;
   
@@ -8,22 +9,29 @@
 
 .destacados{
 display: flex;
-gap: 15px;
-padding: 35px;
+gap: 10px;
+padding: 20px;
 justify-content: center;
-background-color: rgb(158, 158, 158);
-}
-    rect1{
-    width: 200px;
-    height: 130p;
+background-color: whitesmoke}
+
+    .rect1{
+        flex: 1;
+        height: 120px;
+        background-color: #FF0000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
-        rojo{
-        background-color: #FF0000;
-        }
-        blanqueto{
-        background-color: antiquewhite;
-        }
+    .rect2{
+        flex: 1;
+        height: 120px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 
 .galeria{
